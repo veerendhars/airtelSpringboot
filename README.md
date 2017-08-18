@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SpringSecurityLoginTutorial
 
 1. mvn clean
@@ -8,3 +9,7 @@
 - http://localhost:8080/registration
 - http://localhost:8080/login
 
+=======
+# loginApplication
+Spring Boot application
+>>>>>>> branch 'master' of https://github.com/anansh/loginApplication.git
