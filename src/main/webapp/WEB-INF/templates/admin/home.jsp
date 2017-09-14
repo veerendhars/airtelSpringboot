@@ -3,7 +3,7 @@
 
 <head>
 <title>Admin Page</title>
-<link rel="stylesheet" type="text/css" href=css/home.css" />
+<link rel="stylesheet" type="text/css" href="/css/home.css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -23,7 +23,7 @@
 					<span></span>
 				</div>
 				<div class="panel-body">
-					<img src="images/beer.jpg" class="img-responsive center-block" width="400" height="400" alt="Beer" /> 
+					<img src="/images/beer.jpg" class="img-responsive center-block" width="400" height="400" alt="Beer" /> 
 				</div>
 				<p class="admin-message-text text-center"></p>
 			</div>

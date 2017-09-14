@@ -8,10 +8,18 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class ExcelHanderController {
 
-	@RequestMapping(value = "/Excel", method = RequestMethod.GET)
+	@RequestMapping(value = "/excel", method = RequestMethod.GET)
+	public ModelAndView move() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("excel");
+		return modelAndView;
+	}
+
+	@RequestMapping(value = "/excelOperation", method = RequestMethod.POST)
 	public ModelAndView readOrWrite() {
 		ModelAndView modelAndView = new ModelAndView();
 		modelAndView.setViewName("excel");
 		return modelAndView;
 	}
-} 
+
+}
