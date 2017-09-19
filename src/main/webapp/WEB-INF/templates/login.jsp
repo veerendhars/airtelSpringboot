@@ -3,7 +3,7 @@
 
 <head>
 	<title>Login</title>
-	<link rel="stylesheet" type="text/css" href="/css/login.css" />
+	<link rel="stylesheet" type="text/css" href="css/login.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -15,7 +15,7 @@
 	</form>	
 	
 	<div class="container">
-		<img src="images/login.jpg" class="img-responsive center-block" width="300" height="300" alt="Logo" />
+		<img src="images/logo1.jpg" class="img-responsive center-block" width="300" height="300" alt="Logo" />
 		<form action="login" method="POST" class="form-signin">
 			<h3 class="form-signin-heading" text="Welcome"></h3>
 			<br/>
@@ -28,7 +28,7 @@
 			<div align="center">
 				<p style="font-size: 20; color: #FF1C19;">Email or Password invalid, please verify</p>
 			</div>
-			<button class="btn btn-lg btn-primary btn-block" name="Submit" value="Login" type="Submit"></button>
+			<button class="btn btn-lg btn-primary btn-block" >Login</button>
 		</form>
 	</div>
 </body>

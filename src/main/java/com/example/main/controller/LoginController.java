@@ -26,6 +26,32 @@ public class LoginController {
 		modelAndView.setViewName("login");
 		return modelAndView;
 	}
+	
+	@RequestMapping(value = "/index", method = RequestMethod.GET)
+	public ModelAndView index() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("index");
+		return modelAndView;
+	}
+	@RequestMapping(value = "/welcomePage", method = RequestMethod.GET)
+	public ModelAndView welcomePage() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("welcomePage");
+		return modelAndView;
+	}
+	@RequestMapping(value ="/montlySplit", method = RequestMethod.GET)
+	public ModelAndView graphicalview() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("montlySplit");
+		return modelAndView;
+	}
+	@RequestMapping(value ="/typeSplit", method = RequestMethod.GET)
+	public ModelAndView typeSplitview() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("typeSplit");
+		return modelAndView;
+	}
+	
 
 	@RequestMapping(value = "/registration", method = RequestMethod.GET)
 	public ModelAndView registration() {
